@@ -223,7 +223,7 @@ function extraInfo(school) {
 
   space.style.display = isHidden ? "inline" : "none";
   moreText.style.display = isHidden ? "inline" : "none";
-  icon.setAttribute("d", isHidden ? downPath : upPath);
+  icon.setAttribute("d", isHidden ? upPath : downPath);
 }
 
 // Setup auto-hide for all "more-info" containers
