@@ -638,7 +638,7 @@ padding: 2rem;
 text-align: center;
 z-index: 1;
 cursor: pointer;
-font-size: clamp(1rem, 1.2vw, 1.5rem);
+font-size: clamp(0.9rem, 1.2vw, 1.5rem);
 }
 .link-icon {
 position: absolute;
@@ -824,7 +824,7 @@ font-size: 0.8rem;
 }
 /*Flip card grid*/
 .projects__grid {
-grid-template-columns: repeat(1, 1fr); 
+grid-template-columns: repeat(2, 1fr); 
 }
 }
 
